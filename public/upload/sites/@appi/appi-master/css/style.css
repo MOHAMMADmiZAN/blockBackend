@@ -1,0 +1,1166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.title {
+    text-align: center;
+    padding: 100px;
+}
+
+.title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.title .img {
+    margin: 10px 0;
+}
+
+.title h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 680px;
+    display: inline-block;
+
+
+}
+
+
+/*=======================================================================================*/
+/*                                                                                nav-bar-start========================================================================================*/
+nav {
+    background: transparent;
+    z-index: 8888;
+    position: absolute !important;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-nav .nav-item a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    transition: 0.4s;
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #6e2449;
+}
+
+/*=======================================================================================*!*/
+/*                                                                             nav-bar-End========================================================================================*/
+/*=======================================================================================*!*/
+/*                                                                             banner-start========================================================================================*/
+#banner {
+    background: url("../images/banner.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 1400px;
+    padding: 160px 0;
+    text-align: center;
+}
+
+#banner .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#banner .text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+    margin: 20px;
+}
+
+#banner .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    width: 735px;
+    display: inline-block;
+}
+
+#banner .button {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#banner .button a {
+    color: white;
+}
+
+#banner .banner-f {
+    padding: 60px 0;
+}
+
+#banner .banner-f .item {
+    padding: 50px 15px 30px 15px;
+    transition: 0.4s;
+}
+
+#banner .banner-f .text h5 {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 24px 0;
+
+
+}
+
+#banner .banner-f .text h6 {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+
+
+}
+
+#banner .banner-f .item:hover {
+    border-top: 0;
+    box-shadow: 0 3px 5px 1px rgba(171, 168, 171, 1);
+
+}
+
+
+/*=======================================================================================*!*/
+/*                                                                             banner-stop========================================================================================*/
+
+/*=======================================================================================*!*/
+/*                                                                             Our App-start========================================================================================*/
+
+#our-app {
+    background: #f6f7fb;
+    margin: 100px 0 0 0;
+
+}
+
+#our-app .left-s {
+    margin-top: 130px;
+}
+
+#our-app .left-s h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+#our-app .left-s p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#our-app .left-s .btn {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid rgba(240, 41, 114, 1);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 70px;
+    transition: 0.4s;
+
+
+}
+
+#our-app .left-s .button p {
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+#our-app .left-s .button h6 {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#our-app .left-s .btn:hover {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #fff;
+    margin-top: 45px;
+}
+
+#our-app .right-s {
+    text-align: right;
+}
+
+
+/*=======================================================================================*!*/
+/*                                                                             Our App-End========================================================================================*/
+/*=======================================================================================*!*/
+/*                                                                             How-it-Start========================================================================================*/
+#how-it .how-main {
+    margin: 60px 0;
+}
+
+#how-it .how-main .left-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#how-it .how-main .item {
+    display: flex;
+    margin: 50px 0;
+    text-align: left;
+    position: relative;
+}
+
+#how-it .how-main .item .img {
+    padding: 20px;
+}
+
+#how-it .how-main .item .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#how-it .how-main .item .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: 700;
+
+
+}
+
+#how-it .how-main .item .shape {
+    position: absolute;
+    top: 50%;
+    right: -119px;
+
+}
+
+#how-it .how-main .mid-h {
+    text-align: center;
+}
+
+#how-it .how-main .right-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*=======================================================================================*!*/
+/*                                                                             How-it-End========================================================================================*/
+/*=======================================================================================*!*/
+/*                                                                          feature-part-start========================================================================================*/
+#Awesome-feature {
+    background: #f6f7fb;
+}
+
+#Awesome-feature .feature-main .f-item {
+    display: flex;
+    margin: 0 0 100px 0;
+
+
+}
+
+#Awesome-feature .feature-main .f-item .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(240, 41, 114, 1);
+    text-align: center;
+    line-height: 60px;
+    margin: 15px 7px 0 0;
+    transition: 0.4s;
+}
+
+#Awesome-feature .feature-main .f-item .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#Awesome-feature .feature-main .f-item .text h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+
+
+}
+
+#Awesome-feature .feature-main .f-item:hover .image {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+}
+
+/*=======================================================================================*!*/
+/*                                                                             feature-part-End========================================================================================*/
+
+/*=======================================================================================*!*/
+/*                                                                             counter-part-Start========================================================================================*/
+
+#counter-part {
+    padding: 50px;
+    text-align: center;
+}
+
+#counter-part .video {
+    position: relative;
+}
+
+#counter-part .s-vdi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#counter-part .counter {
+    background: url("../images/counter-bg.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: -120px;
+}
+
+#counter-part .counter .item {
+    margin: 240px 0 120px 0;
+    color: #fff;
+}
+
+#counter-part .counter .item h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 30px 0 15px 0;
+}
+
+#counter-part .counter .item h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+/*=======================================================================================*!*/
+/*                                                                             counter-part-End========================================================================================*/
+
+
+/*<!--===================================================-->*/
+/*<!--                                                APP- Screensrt-start===================================================-->*/
+#app-sknsrt {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#app-sknsrt .images {
+    background: url("../images/app-s.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 745px;
+
+}
+
+
+/*<!--===================================================-->*/
+/*<!--                                                APP- Screensrt-End===================================================-->*/
+
+
+/*<!--===================================================-->*/
+/*<!--                                                Awesome-team-start===================================================-->*/
+
+#awe-team {
+    background: url("../images/awe-team.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 790px;
+    color: #ffffff;
+}
+
+#awe-team .team .av-1 {
+    height: 345px;
+    background: url("../images/av-1.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+#awe-team .team .av-2 {
+    height: 345px;
+    background: url("../images/av-2.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+#awe-team .team .av-3 {
+    height: 345px;
+    background: url("../images/av-3.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+#awe-team .team .av-4 {
+    height: 345px;
+    background: url("../images/av4.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+#awe-team .team .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 41, 114, 0.5);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transform: scale(0);
+    transition: 0.7s;
+    text-align: center;
+}
+
+#awe-team .team .text {
+    margin-top: 60px;
+}
+
+#awe-team .team .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#awe-team .team .text h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+#awe-team .team .text h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 7px;
+    width: 225px;
+}
+
+#awe-team .team .icon {
+    position: absolute;
+    bottom: 60px;
+    right: 45px;
+}
+
+#awe-team .team .icon span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+#awe-team .av-1:hover .overlay {
+    transform: scale(1);
+
+}
+
+#awe-team .av-2:hover .overlay {
+    transform: scale(1);
+}
+
+#awe-team .av-3:hover .overlay {
+    transform: scale(1);
+
+}
+
+#awe-team .av-4:hover .overlay {
+    transform: scale(1);
+
+}
+
+#awe-team .team .icon span:hover {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #ffffff;
+}
+
+/*<!--===================================================-->*/
+/*<!--                                                Awesome-team-End===================================================-->*/
+
+
+/*<!--===================================================-->*/
+/*<!--                                                team-slide-Start===================================================-->*/
+#team .slide {
+    padding: 100px;
+}
+
+#team .slide .item {
+    width: 825px;
+    margin: 0 auto 10px auto;
+    box-shadow: 1px 1px 35px 1px rgba(69, 70, 77, 1);
+    padding: 50px;
+    position: relative;
+
+}
+
+#team .slide .item .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -32%;
+    left: 50%;
+    transform: translateY(50%) translateX(-50%);
+    background: url("../images/team-1.png") no-repeat center;
+    background-size: cover;
+
+
+}
+
+#team .slide .item .text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;;
+}
+
+#team .slide .item .text h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#team .slide .item .text h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+
+
+}
+
+#team .slide .item .text p {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 30px;
+}
+
+#team .slide .dot {
+    text-align: center;
+}
+
+/*<!--===================================================-->*/
+/*<!--                                                team-slide-End===================================================-->*/
+
+
+/*===================================================*/
+/*                                                   price-Start  ===================================================*/
+#price-part {
+    background: url("../images/price-bg.png") no-repeat center;
+    background-size: cover;
+
+}
+
+#price-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding-bottom: 100px;
+}
+
+
+#price-part .price-item {
+    background: #fff;
+    text-align: center;
+    width: 360px;
+    transition: 0.4s;
+
+}
+
+#price-part .price-item .date {
+    padding: 30px;
+}
+
+#price-part .price-item h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+#price-part .price-item p {
+    display: inline-block;
+}
+
+#price-part .price-item .plan {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+}
+
+#price-part .price-item .plan h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#price-part .price-item .plan-details {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 30px;
+    border-bottom: 1px solid rgb(240, 41, 114);
+}
+
+#price-part .price-item .plan-details ul {
+    margin: 0;
+}
+
+#price-part .price-item .plan-details li {
+    padding: 10px;
+}
+
+#price-part .price-item .price-cost {
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+
+}
+
+#price-part .price-item .price-cost h6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    transition: 0.4s;
+}
+
+#price-part .price-item .price-cost a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgb(240, 41, 114);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#price-part .price-item:hover h5 {
+    color: #f79582;
+}
+
+#price-part .price-item:hover .plan h6 {
+    color: #ffffff;
+}
+
+#price-part .price-item:hover .price-cost {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #ffffff;
+}
+
+#price-part .price-item:hover .price-cost a {
+    background: linear-gradient(90deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #ffffff;
+}
+
+/*===================================================*/
+/*                                                   price-End  ===================================================*/
+/*===================================================*/
+/*                                                   question-part-start  ===================================================*/
+#question {
+    padding-bottom: 100px;
+}
+
+#question .left-acc {
+    display: flex;
+}
+
+#question .left-acc .img-line {
+    margin-top: 20px;
+}
+
+#question .left-acc .accordion {
+    margin-left: 40px;
+}
+
+.accordion .accordion-item {
+    border-left: 2px solid rgb(240, 41, 114);
+    box-shadow: 1px 1px 35px 1px rgba(69, 70, 77, 1);
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+#question .left-acc .accordion .accordion-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: black;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    background: #f99582;
+    border-radius: 50%;
+
+}
+
+.accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 3px;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+}
+
+.accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 10px;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: opacity 200ms linear, max-height 200ms linear;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/*===================================================*/
+/*                                                   question-part-End  ===================================================*/
+/*===================================================*/
+/*                                                   Download-part-start  ===================================================*/
+
+#download {
+    background: rgb(240, 41, 114);
+    padding-top: 60px;
+    color: white;
+}
+
+#download .left-side h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#download .left-side p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#download .left-side .button {
+    display: inline-flex;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 40px;
+    align-items: center;
+    margin-top: 50px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#download .left-side .button .icon {
+    margin-right: 10px;
+}
+
+#download .left-side .button .text h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+#download .left-side .button .text h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#download .left-side .button:hover {
+    background: linear-gradient(45deg, rgba(240, 41, 114, 1) 0%, rgba(247, 123, 127, 1) 70%);
+    color: #ffffff;
+    border-color: rgb(240, 41, 114);
+}
+
+/*===================================================*/
+/*                                                   Download-part-End ===================================================*/
+
+/*===================================================*/
+/*                                                   blog-part-start ===================================================*/
+#blog .blog-write {
+    padding-bottom: 100px;
+}
+
+#blog .blog-write .text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+#blog .blog-write .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+#blog .blog-write .text h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 25px 0;
+}
+
+#blog .blog-write .text h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 15px;
+    transition: .4s;
+}
+
+#blog .blog-write .text i {
+    font-size: 14px;
+    color: #f89483;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#blog .blog-write:hover h3 {
+    color: #f89483;
+
+}
+
+#blog .blog-write:hover .text h5 {
+    color: #f89483;
+}
+
+#blog .blog-write:hover i {
+    opacity: 1;
+}
+
+/*===================================================*/
+/*                                                   blog-part-end ===================================================*/
+/*===================================================*/
+/*                                                   sub-part-start ===================================================*/
+#fotter-part {
+    margin-top: 150px;
+    position: relative;
+}
+
+#fotter-part .text {
+    background: #2b313f;
+    padding: 30px 0;
+}
+
+#fotter-part .title-box h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 90px;
+}
+
+#fotter-part .input-form {
+    text-align: center;
+    position: relative;
+}
+
+#fotter-part .input-form .input {
+    width: 500px;
+    height: 75px;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #222222;
+    outline: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 400;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .input-form a {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    right: 77px;
+    transform: translateY(-50%);
+}
+
+#fotter-part .input-form i {
+    padding: 25px 60px;
+    background-image: linear-gradient(to left, #fca0a3, #ef2872);
+    font-size: 24px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+#fotter-part .form-table {
+    width: 1111px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#fotter-part .form-table .left {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#fotter-part .form-table .left h3 {
+    text-align: left;
+    margin-left: 96px;
+}
+
+#fotter-part .form-table .left .touch {
+    width: 470px;
+    margin-top: 30px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#fotter-part .form-table .left .touch::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .form-table .left textarea {
+    width: 470px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #c9c9c9;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 0;
+    height: 70px;
+    margin-top: 40px;
+}
+
+#fotter-part .form-table .left button {
+    display: block;
+    background: transparent;
+    outline: none;
+    border: 0;
+    margin-left: 96px;
+    padding-top: 40px;
+}
+
+#fotter-part .form-table .left a {
+    display: inline-block;
+    padding: 15px 25px;
+    background-image: linear-gradient(to left, #fca0a3, #ef2872);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .right {
+    background: #4c5461;
+    padding: 117px 0;
+}
+
+#fotter-part .right ul {
+    display: flex;
+}
+
+#fotter-part .right ul li i {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#fotter-part .right ul li i:hover {
+    background: #f13c75;
+    color: #fff;
+    cursor: pointer;
+    border-color: #f13c75;
+}
+
+#fotter-part .right h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotter-part .right p {
+    width: 330px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#fotter-part .right .text-sign {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    width: 225px;
+    padding-left: 15px;
+}
+
+#fotter-part .right .right-text {
+    margin-left: 75px;
+}
+
+#fotter-part .map img {
+    width: 100%;
+    height: 600px;
+}
+
+#fotter-part .fotter-bottom {
+    width: 100%;
+    background: #2b313f;
+    padding: 300px 0 50px 0;
+    margin-top: -5px;
+}
+
+#fotter-part .fotter-bottom .icon {
+    text-align: center;
+}
+
+#fotter-part .fotter-bottom .icon i {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#fotter-part .fotter-bottom .icon i:hover {
+    background: #f13c75;
+    color: #fff;
+}
+
+
+/*------------------------------
+            fotter part end
+--------------------------------*/
