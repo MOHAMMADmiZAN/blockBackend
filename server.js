@@ -5,7 +5,7 @@ const connectDB = require("./db");
 const app = express();
 const router = require('./router/api');
 const cors = require("cors");
-require('dotenv').config()
+require("dotenv").config();
 
 
 
@@ -28,7 +28,7 @@ app.use((err, req, res, next) => {
         message,
     });
 });
-
+cwd = process.cwd();
 
 const PORT = process.env.PORT || 5000;
 const DB_URI = process.env.DB_URI || "mongodb://localhost:27017/";
@@ -39,7 +39,8 @@ connectDB(DB_URI + DB_NAME).then(() => {
     const server = http.createServer(app);
     server.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}`);
-        console.log(process.env)
+        console.log(process.env.PORT)
+
     })
 }).catch(e => {
     console.log(e);
